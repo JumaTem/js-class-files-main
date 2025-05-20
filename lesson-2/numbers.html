@@ -12,16 +12,26 @@
     <script>
         /* STEP 1: Number types (integer, float, and double)
         declare and initialize an integer and a float, then in the console, reveal the number type with typeof(varName) */
-        
+        let myInt = 5;
+        let myFloat = 6.23456;
+        let myDouble  = 7.25546546464;
+        let myBinary = 10000110;
+        let myHex = 0x04F66E2;
+
         // Note - there are also different number systems: binary, octal, and hexadecimal
 
         /* STEP 2: Arithmetic operators
         + (addition), - (subtraction), * (multiplication), / (division), % (remainder or modulo), ** (exponent) */
+        let step2a = 5*2;
+        console.log(step2a);
 
 
         // Try declaring and initializing a couple of variables as numbers
 
-
+        let num1 = 90;
+        let num2 = 30;
+        let step2b = num1 + num2 * num1;
+        console.log(`The value of step2b is " + $(step2b)`);
         /* OR… num1 * num2 / 8 + 2 - 0.5; */
 
         /* Keep in mind operator precedence, just like you were taught in math class (/, *, +, -)
@@ -36,7 +46,9 @@
 
         // Note 1 - you cannot increment/decrement a number directly
         // Note 2 - typing num++ or num-- in the console will output the number before incrementing or decrmenting - try ++num or --num, instead
-
+        let step5 = 5;
+        step5++;
+        console.log(`step 5 = $step5`);
         /* STEP 4: Assignment Operators
         = (assignment), += (addition assignment), -= (subtraction assignment), *= (multiplication assignment), /= (division assignment) */
 
